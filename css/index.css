@@ -226,3 +226,25 @@ transition: 0.3s;
 .resume-btn:hover {
 background: #009db3;
 }
+
+#education {
+padding: 100px 10%;
+}
+#education h2 {
+font-size: 40px;
+color: #00eaff;
+}
+.edu-box h3 {
+margin-top: 15px;
+font-size: 24px;
+color: #fff;
+}
+.edu-box p {
+color: #ccc;
+margin-bottom: 5px;
+}
+.edu-box ul li {
+color: #bbb;
+margin-left: 20px;
+margin-top: 5px;
+}
