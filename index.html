@@ -1,11 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>Portfolio</title>
     <script src="./js/index.js"></script>
-
     <link rel="stylesheet" href="./css/index.css" />
   </head>
 
@@ -15,7 +12,7 @@
       <nav>
         <a href="#hero">Home</a>
         <a href="#about">About</a>
-        <a class="btn" href="assets/resume.pdf" target="_blank">Resume</a>
+        <a class="btn" href="./assets/resume.pdf" target="_blank">Resume</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
@@ -33,17 +30,20 @@
     <section id="about">
       <h2>About Me</h2>
       <p>
-        I am an MCA student passionate about Web Development, UI/UX, and
-        problem-solving. I specialize in HTML, CSS, JavaScript, Databases, and
-        Cloud-based applications. My goal is to create elegant, responsive, and
-        impactful digital experiences.
+        I am an MCA student with a solid understanding of my academic studies
+        and a strong interest in applying what I’ve learned in practical
+        situations. I am skilled at working with others, managing projects, and
+        quickly picking up new concepts. I am excited to use my academic
+        knowledge to contribute to a team and gain valuable experience
       </p>
     </section>
 
     <section id="resume">
       <h2>Resume</h2>
       <p>You can download my updated resume from the link below:</p>
-      <a href="resume.pdf" download class="resume-btn">Download Resume</a>
+      <a href="./assets/resume.pdf" download class="resume-btn"
+        >Download Resume</a
+      >
     </section>
     <section id="education">
       <h2>Education</h2>
@@ -135,7 +135,6 @@
         method="POST"
         class="contact-form"
       >
-        <!-- FormSubmit settings -->
         <input type="hidden" name="_captcha" value="false" />
         <input type="hidden" name="_template" value="table" />
         <input
@@ -143,11 +142,7 @@
           name="_subject"
           value="New Portfolio Contact Message"
         />
-        <input
-          type="hidden"
-          name="_next"
-          value="https://yourwebsite.com/thankyou.html"
-        />
+        <input type="hidden" name="_next" value="" />
 
         <div class="form-group">
           <label for="name">Full Name</label>
